@@ -4,11 +4,8 @@ const cors = require('cors');
 
 const app = express();
 
-<<<<<<< HEAD
 require("dotenv").config();
 
-=======
->>>>>>> f307f722a993e8eab05ca73c2e67b863b328dc3f
 mongoose.set('strictQuery', true);
 
 app.use(express.json());
