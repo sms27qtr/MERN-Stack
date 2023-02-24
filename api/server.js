@@ -4,6 +4,10 @@ const cors = require('cors');
 
 const app = express();
 
+require("dotenv").config();
+
+mongoose.set('strictQuery', true);
+
 app.use(express.json());
 app.use(cors());
 
@@ -57,7 +61,7 @@ app.put('/todo/update/:id', async (req, res) => {
 	res.json(todo);
 });
 
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
 
 
 
