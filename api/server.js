@@ -4,6 +4,8 @@ const cors = require('cors');
 
 const app = express();
 
+mongoose.set('strictQuery', true);
+
 app.use(express.json());
 app.use(cors());
 
