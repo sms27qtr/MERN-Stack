@@ -1,0 +1,20 @@
+# GET http://localhost:3001/todos
+# {
+#     "text": "Welcome Saad"
+# }
+
+# ###
+
+# POST http://localhost:3001/todo/new
+# Content-Type: application/json
+# {
+#     "text": "Welcome Saad"
+# }
+
+# ###
+
+# DELETE http://localhost:3001/todo/delete/63f277694b7b531271dca3de
+
+# ###
+
+# PUT http://localhost:3001/todos/complete/63f28f7d703a6d1123e9ed9c
